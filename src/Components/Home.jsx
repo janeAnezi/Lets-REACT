@@ -13,9 +13,15 @@ const Home = () => {
 
    
     return ( <>
-        <h1 className="home"> This is the body of the post</h1>
-        <p>{name}</p>
-        <button onClick={handleClick}>Click Me</button>
+        <div className="home">
+            {blogs.map((blog) => (
+                <div className="blog-preview" key={blog.id} >
+                    <img src={blog.url} alt={blog.title} />
+                    <h2>{blog.title}</h2>
+                    <p> Written By: {blog.author}</p>
+                </div>
+            ))}
+        </div>
         
     </> );
 }
