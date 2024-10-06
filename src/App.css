@@ -23,9 +23,13 @@
   margin-left: 16px;
   text-decoration: none;
   padding: 6px;
+  color: #fff;
+  background-color: #034b02;
+  border-radius: 6px;
 }
 .navbar a:hover {
   color: #034b02;
+  background-color: #c9eef8;
 }
 .content {
   max-width: 600px;
