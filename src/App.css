@@ -7,6 +7,7 @@
 .navbar {
   padding: 20px;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   max-width: 600px;
   margin: 0 auto;
@@ -35,4 +36,21 @@
   max-width: 600px;
   margin: 4px auto;
   padding: 20px;
+}
+
+/* ********  blog preview **** */
+
+.blog-preview {
+  padding:  10px 16px;
+  margin: 20px 0;
+  border-bottom: 2px solid #ebedeb ;
+  transition: all 1s ease-in-out;
+}
+.blog-preview:hover {
+  box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.1);
+}
+.blog-preview h2 {
+  font-size: 20px;
+  color: #034b02;
+  margin: 10px 0;
 }

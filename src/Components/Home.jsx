@@ -1,5 +1,5 @@
 import { useState } from "react";
-import kid01 from '../assets/images/kidImg01.jpg'
+import kid01 from '../assets/images/kidImg04.jpg'
 import kid02 from '../assets/images/kidImg02.jpg'
 import kid03 from '../assets/images/kidImg03.jpg'
 
