@@ -1,4 +1,4 @@
-const BlogList = ({blogs, title}) => {
+const BlogList = ({blogs, title, handleDelete}) => {
     // const blogs = props.blogs || [];
     // const title = props.title;
 
@@ -11,6 +11,7 @@ const BlogList = ({blogs, title}) => {
                     <img src={blog.image} alt={blog.title} />
                     <h2>{blog.title}</h2>
                     <p> Written By: {blog.author}</p>
+                    <button onClick={() => handleDelete(blog.id)}>Delete Post</button>
                 </div>
             ))}
         </div>
