@@ -17,17 +17,18 @@ const Home = () => {
     setBlogs(newBlogs);
    }
 
+   const [name, setName] = useState('Angel')
    useEffect(() => {
     console.log('use effect ran');
-    console.log(blogs);
-}, []); // the square [] is the useEffect dependency ensuriong it ocurs only on the first page (first render) load and not at every change of state.
-   
+}, [name]); // the square [] is the useEffect dependency ensuriong it ocurs only on the first page (first render) load and not at every change of state. anlso the second kind of dependency [name]
+            // manages/monitors or used to controll when the set useEffect function runs.   
     return ( <>
         <div className="home">
             <BlogList blogs={blogs} title="Designs and Styles" handleDelete={handleDelete}/>
 
             <BlogList blogs={blogs.filter((blog) => blog.author === 'Adiel' )} title="Trending" handleDelete={handleDelete}/>
-
+            <button onClick={() => setName('Angella')}>Click</button>
+            <p>{name}</p>
         </div>
         
     </> );
