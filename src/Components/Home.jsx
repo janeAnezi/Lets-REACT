@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect  } from "react";
 import kid01 from '../assets/images/kidImg04.jpg'
 import kid02 from '../assets/images/kidImg02.jpg'
 import kid03 from '../assets/images/kidImg03.jpg'
@@ -16,6 +16,8 @@ const Home = () => {
 
     setBlogs(newBlogs);
    }
+
+   useEffect(() => {console.log('use effect ran');})
    
     return ( <>
         <div className="home">
