@@ -17,7 +17,10 @@ const Home = () => {
     setBlogs(newBlogs);
    }
 
-   useEffect(() => {console.log('use effect ran');})
+   useEffect(() => {
+    console.log('use effect ran');
+    console.log(blogs);
+}, []); // the square [] is the useEffect dependency ensuriong it ocurs only on the first page (first render) load and not at every change of state.
    
     return ( <>
         <div className="home">
