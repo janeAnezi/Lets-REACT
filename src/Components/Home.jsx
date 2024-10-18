@@ -26,11 +26,11 @@ const Home = () => {
     
     return ( <>
         <div className="home">
-          {blogs && <BlogList blogs={blogs} title="Designs and Styles" handleDelete={handleDelete}/> }
+          {blogs && <BlogList blogs={blogs} title="Designs and Styles"/> }
 
             {/* <BlogList blogs={blogs.filter((blog) => blog.author === 'Adiel' )} title="Trending" handleDelete={handleDelete}/> */}
-            <button onClick={() => setName('Angella')}>Click</button>
-            <p>{name}</p>
+            {/* <button onClick={() => setName('Angella')}>Click</button>
+            <p>{name}</p> */}
         </div>
         
     </> );
