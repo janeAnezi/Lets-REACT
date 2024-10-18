@@ -1,0 +1,16 @@
+{
+    "blogs": [
+        {
+            "title": "Kiddies EveryDay",
+            "body": "These outfits are perfect for children as they are comfortable, durable, and versatile for various occasions, from casual outings to special events. Ankara designs for kids range from dresses, shorts, and tops to matching sets, blending cultural heritage with modern fashion.",
+            "author": "Adiel",
+            "id": 1
+        },
+        {
+            "title": "Kiddies For Events",
+            "body": "These outfits are perfect for children as they are comfortable, durable, and versatile for various occasions, from casual outings to special events. Ankara designs for kids range from dresses, shorts, and tops to matching sets, blending cultural heritage with modern fashion.",
+            "author": "Adiel",
+            "id": 2
+        }
+    ]
+}
